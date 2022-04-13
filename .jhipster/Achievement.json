@@ -1,0 +1,39 @@
+{
+  "applications": "*",
+  "changelogDate": "20220413165241",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "achievement",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "videogame",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "completed",
+      "fieldType": "Boolean"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Achievement",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "videogame",
+      "otherEntityRelationshipName": "achievement",
+      "relationshipName": "videogame",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "no"
+}

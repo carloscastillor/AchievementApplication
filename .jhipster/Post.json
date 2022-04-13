@@ -1,0 +1,37 @@
+{
+  "applications": "*",
+  "changelogDate": "20220413165244",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "post",
+  "fields": [
+    {
+      "fieldName": "title",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Post",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "message",
+      "otherEntityRelationshipName": "post",
+      "relationshipName": "message",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "likePost",
+      "otherEntityRelationshipName": "user",
+      "relationshipName": "likePost",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

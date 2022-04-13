@@ -1,0 +1,32 @@
+{
+  "applications": "*",
+  "changelogDate": "20220413165237",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "resource",
+  "fields": [
+    {
+      "fieldName": "title",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "urlSource",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "resourceType",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Resource",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no"
+}

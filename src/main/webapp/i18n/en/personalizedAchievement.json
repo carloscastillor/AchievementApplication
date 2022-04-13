@@ -1,0 +1,25 @@
+{
+  "achievementApplicationApp": {
+    "personalizedAchievement": {
+      "home": {
+        "title": "Personalized Achievements",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Personalized Achievement",
+        "createOrEditLabel": "Create or edit a Personalized Achievement",
+        "notFound": "No Personalized Achievements found"
+      },
+      "created": "A new Personalized Achievement is created with identifier {{ param }}",
+      "updated": "A Personalized Achievement is updated with identifier {{ param }}",
+      "deleted": "A Personalized Achievement is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Personalized Achievement {{ id }}?"
+      },
+      "detail": {
+        "title": "Personalized Achievement"
+      },
+      "id": "ID",
+      "achievement": "Achievement",
+      "user": "User"
+    }
+  }
+}

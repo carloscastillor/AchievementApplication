@@ -1,0 +1,27 @@
+{
+  "applications": "*",
+  "changelogDate": "20220413165245",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "like_post",
+  "fields": [
+    {
+      "fieldName": "like",
+      "fieldType": "Boolean"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "LikePost",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "post",
+      "otherEntityRelationshipName": "likePost",
+      "relationshipName": "user",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "no"
+}

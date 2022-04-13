@@ -1,0 +1,29 @@
+{
+  "applications": "*",
+  "changelogDate": "20220413165242",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "personalized_achievement",
+  "fields": [],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "PersonalizedAchievement",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "achievement",
+      "otherEntityRelationshipName": "personalizedAchievement",
+      "ownerSide": true,
+      "relationshipName": "achievement",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "videogame",
+      "otherEntityRelationshipName": "personalizedAchievement",
+      "relationshipName": "user",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "no"
+}
