@@ -1,0 +1,81 @@
+
+entity Resource {
+	id Integer
+    title String
+    description String
+    urlSource String
+    resourceType String
+}
+
+entity 	Walkthrough {
+	id Integer
+	title String
+    description String
+}
+
+entity Message {
+	id Integer
+    body String
+}
+
+entity 	Videogame {
+	id Integer
+	name String
+}
+
+entity 	Achievement {
+	id Integer
+	name String
+    description String
+    videogame String
+    completed Boolean
+}
+
+entity 	PersonalizedAchievement{
+	id Integer
+}
+
+entity 	User {
+	id Integer
+	userName String
+    name String
+    email String
+    password String
+}
+
+entity 	Community {
+	id Integer
+	name String
+}
+
+entity 	Post {
+	id Integer
+	title String
+    description String
+}
+
+entity 	LikePost {
+	id Integer
+	like Boolean
+}
+
+entity 	LikeMessage {
+	id Integer
+	like Boolean
+}
+
+relationship OneToOne {
+	Walkthrough{resource} to Resource
+    PersonalizedAchievement{achievement} to Achievement
+    Walkthrough{user} to Achievement
+}
+
+relationship ManyToOne{
+    Community{post} to Post
+ 	Videogame to Achievement{videogame}
+    Videogame to Achievement{videogame}
+    Post{message} to Message
+    Post to LikePost{user}
+    Message to LikeMessage{user}
+    Videogame to PersonalizedAchievement{user}
+}
