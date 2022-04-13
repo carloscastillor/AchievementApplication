@@ -7,6 +7,16 @@
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Entities",
+        "resource": "Resource",
+        "walkthrough": "Walkthrough",
+        "message": "Message",
+        "videogame": "Videogame",
+        "achievement": "Achievement",
+        "personalizedAchievement": "Personalized Achievement",
+        "community": "Community",
+        "post": "Post",
+        "likePost": "Like Post",
+        "likeMessage": "Like Message",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {

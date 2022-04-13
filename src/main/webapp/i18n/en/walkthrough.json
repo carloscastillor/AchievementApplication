@@ -1,0 +1,27 @@
+{
+  "achievementApplicationApp": {
+    "walkthrough": {
+      "home": {
+        "title": "Walkthroughs",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Walkthrough",
+        "createOrEditLabel": "Create or edit a Walkthrough",
+        "notFound": "No Walkthroughs found"
+      },
+      "created": "A new Walkthrough is created with identifier {{ param }}",
+      "updated": "A Walkthrough is updated with identifier {{ param }}",
+      "deleted": "A Walkthrough is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Walkthrough {{ id }}?"
+      },
+      "detail": {
+        "title": "Walkthrough"
+      },
+      "id": "ID",
+      "title": "Title",
+      "description": "Description",
+      "resource": "Resource",
+      "user": "User"
+    }
+  }
+}

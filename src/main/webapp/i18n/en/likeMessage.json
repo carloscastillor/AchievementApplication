@@ -1,0 +1,25 @@
+{
+  "achievementApplicationApp": {
+    "likeMessage": {
+      "home": {
+        "title": "Like Messages",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Like Message",
+        "createOrEditLabel": "Create or edit a Like Message",
+        "notFound": "No Like Messages found"
+      },
+      "created": "A new Like Message is created with identifier {{ param }}",
+      "updated": "A Like Message is updated with identifier {{ param }}",
+      "deleted": "A Like Message is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Like Message {{ id }}?"
+      },
+      "detail": {
+        "title": "Like Message"
+      },
+      "id": "ID",
+      "like": "Like",
+      "user": "User"
+    }
+  }
+}

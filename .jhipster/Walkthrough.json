@@ -1,0 +1,39 @@
+{
+  "applications": "*",
+  "changelogDate": "20220413165238",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "walkthrough",
+  "fields": [
+    {
+      "fieldName": "title",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Walkthrough",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "resource",
+      "otherEntityRelationshipName": "walkthrough",
+      "ownerSide": true,
+      "relationshipName": "resource",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "achievement",
+      "otherEntityRelationshipName": "walkthrough",
+      "ownerSide": true,
+      "relationshipName": "user",
+      "relationshipType": "one-to-one"
+    }
+  ],
+  "service": "no"
+}
